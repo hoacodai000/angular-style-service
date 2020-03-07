@@ -1,16 +1,16 @@
 # Add
 ```
-  this.styleService.addStyle('THEME_A', `
-      .main {
-        background: red !important;
-        color: white;
-      }
-  `);
+this.styleService.addStyle('THEME_A', `
+    .main {
+      background: red !important;
+      color: white;
+    }
+`);
 ```
 
 # Remove
 ```
-   this.styleService.removeStyle('THEME_A');
+this.styleService.removeStyle('THEME_A');
 ```
 
 # Service
