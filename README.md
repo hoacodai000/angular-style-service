@@ -1,17 +1,20 @@
-'''
+# Add
+```
   this.styleService.addStyle('THEME_A', `
       .main {
         background: red !important;
         color: white;
       }
   `);
-'''
+```
 
-'''
+# Remove
+```
    this.styleService.removeStyle('THEME_A');
-'''
+```
 
-'''
+# Service
+```
 import { Injectable, Inject } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
 
@@ -47,7 +50,7 @@ export class StyleService {
   }
 }
 
-'''
+```
 
 
 # AngularStyleService
